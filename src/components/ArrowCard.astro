@@ -1,27 +1,30 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
 
 type Props = {
-  entry: CollectionEntry<"blog"> | CollectionEntry<"projects">;
-}
+  entry: CollectionEntry<"projects">;
+};
 
 const { entry } = Astro.props;
 ---
 
-<a href={`/${entry.collection}/${entry.slug}`} class="relative group flex flex-nowrap py-3 px-4 pr-10 rounded-lg border border-black/15 dark:border-white/20 hover:bg-black/5 dark:hover:bg-white/5 hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out">
-  <div class="flex flex-col flex-1 truncate">
-    <div class="font-semibold">
+<div class="flex flex-col gap-10">
+  <div class="flex aspect-[16/9] overflow-hidden rounded-lg">
+    <Image src={entry.data.cover} alt={entry.data.title} />
+  </div>
+  <div class="flex flex-col gap-4 max-w-screen-md mx-auto">
+    <div class="font-medium text-2xl text-black dark:text-white">
       {entry.data.title}
     </div>
-    <div class="text-sm">
-      {entry.data.description}
+    <div class="flex leading-7 text-black/70 dark:text-white/75">
+      <p>{entry.data.description}</p>
     </div>
+
+    <a
+      href={`/${entry.collection}/${entry.slug}`}
+      class="inline-block text-black dark:text-white underline underline-offset-4 hover:underline-offset-8 ease-linear duration-200"
+    >
+      <div>Read Case Study</div></a>
   </div>
-  <svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    viewBox="0 0 24 24"
-    class="absolute top-1/2 right-2 -translate-y-1/2 size-5 stroke-2 fill-none stroke-current">
-    <line x1="5" y1="12" x2="19" y2="12" class="translate-x-3 group-hover:translate-x-0 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out" />
-    <polyline points="12 5 19 12 12 19" class="-translate-x-1 group-hover:translate-x-0 transition-transform duration-300 ease-in-out" />
-  </svg>
-</a>
+</div>

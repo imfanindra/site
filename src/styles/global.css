@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: "InterDisplay";
+	font-weight: 500;
+	font-display: swap;
+	src: url("/fonts/InterDisplay-Medium.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "InterDisplay";
+	font-weight: 600;
+	font-display: swap;
+	src: url("/fonts/InterDisplay-SemiBold.woff2") format("woff2");
+}
+
 html {
   overflow-y: scroll;
   color-scheme: light;
@@ -19,13 +33,15 @@ body {
 body {
   @apply font-sans antialiased;
   @apply flex flex-col;
-  @apply bg-stone-100 dark:bg-stone-900;
+  @apply bg-white dark:bg-black;
   @apply text-black/50 dark:text-white/75;
+  font-family: "InterDisplay";
+  font-weight: 500;
 }
 
 header {
   @apply fixed top-0 left-0 right-0 z-50 py-5;
-  @apply bg-stone-100/75 dark:bg-stone-900/25;
+  @apply bg-white/75 dark:bg-black/75;
   @apply backdrop-blur-sm saturate-200;
 }
 
@@ -39,14 +55,14 @@ footer {
 
 article {
   @apply max-w-full prose dark:prose-invert prose-img:mx-auto prose-img:my-auto;
-  @apply prose-headings:font-semibold prose-p:font-serif;
+  @apply prose-headings:font-medium prose-p:font-sans;
   @apply prose-headings:text-black prose-headings:dark:text-white;
 }
 
 @layer utilities {
   article a {
     @apply font-sans text-current underline underline-offset-2;
-    @apply decoration-black/15 dark:decoration-white/30;
+    @apply decoration-black/30 dark:decoration-white/30;
     @apply transition-colors duration-300 ease-in-out;
   }
   article a:hover {
@@ -70,4 +86,31 @@ html #back-to-top {
 
 html.scrolled #back-to-top {
   @apply opacity-100 pointer-events-auto;
+}
+
+p{
+  font-size: 1.068rem;
+  line-height: 1.8;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+h2{
+  font-size: 1.75rem;
+}
+
+h3{
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+h4{
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+strong{
+  font-weight: 600;
 }

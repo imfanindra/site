@@ -1,0 +1,92 @@
+---
+import Container from "@components/Container.astro";
+import PageLayout from "@layouts/PageLayout.astro";
+import Link from "@components/Link.astro";
+import { SITE, SOCIALS, ABOUT } from "@consts";
+---
+
+<PageLayout title={ABOUT.TITLE} description={ABOUT.DESCRIPTION}>
+  <Container>
+    <div class="mx-auto lg:max-w-screen-sm sm:max-w-full lg:px-16 sm:px-0 space-y-12">
+    <h4 class="animate text-md font-medium text-black/50 dark:text-white/75">About</h4>
+    <div class="space-y-16">
+      <section>
+        <article class="space-y-4">
+          <p class="animate text-2xl">
+            Hey there, I am Fanindra Maharana, an Interaction Designer who's all about crafting those seamless digital experiences. Funny how life works out — I started off on a B. Tech journey in Computer Science, but design stole my heart along the way.
+          </p>
+          <p class="animate">
+            I thrive on exploration and embracing new challenges. My time as a UX Design Intern at Pulpit Mobility was a game-changer, fine-tuning my skills and fueling my passion for design.
+          </p>
+          <p class="animate">
+            Beyond design, you'll find me soaking up cricket matches or diving into my hobbies in architecture, interior design, and photography. From discussing the latest in the MCU to diving into tech trends, or discussing keyboards or maps, I'm all ears. Let's kickstart some engaging conversations!
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <article class="flex sm:flex-row justify-between flex-col gap-8">
+          <div class="animate">
+            <h5>Education</h5>
+            <p class="text-black/70 dark:text-white/75">
+              <span class="text-black dark:text-white">B. Tech in CSE with spec. in AI & ML</span> 
+              <br /> Vellore Institute of Technology <br />Bhopal<br />2020 -
+              2024
+            </p>
+          </div>
+          <div class="animate">
+            <h5>Experience</h5>
+           
+            <p class="text-black/70 dark:text-white/75">
+              <span class="text-black dark:text-white">UI/UX Design Intern</span> 
+              <br /> Pulpit Mobility <br /> Remote <br /> Feb 2023 - May 2023
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <article class="space-y-4">
+          <div class="animate">
+            <h5>Skills</h5>
+            <p>
+              UX Design and UI Design 
+              <br>UX Research
+              <br>Usability Testing
+              <br>Wireframing and Prototyping
+              <br>No-code web-development (Framer, Webflow)
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="animate space-y-4">
+        <h5 class="text-black dark:text-white">Get in touch</h5>
+        <article>
+          <p>
+            Email me here → <Link href={`mailto:imfanindra@gmail.com`}
+            aria-label={`Email`}>imfanindra@gmail.com.</Link>
+          </p>
+          
+        </article>
+        <ul class="flex flex-wrap gap-4">
+          {
+            SOCIALS.map((SOCIAL) => (
+              <li class="flex gap-x-2 text-nowrap">
+                <Link
+                  href={SOCIAL.HREF}
+                  external
+                  aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`}
+                >
+                  {SOCIAL.NAME}
+                </Link>
+                {""}
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </div>
+  </div>
+  </Container>
+</PageLayout>
