@@ -4,6 +4,6 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: "https://astro-nano-demo.vercel.app",
+  site: "https://www.fanindra.xyz/",
   integrations: [mdx(), sitemap(), tailwind()],
 });
