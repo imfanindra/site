@@ -35,4 +35,8 @@ export const SOCIALS: Socials = [
     NAME: "Behance",
     HREF: "https://www.behance.net/imfanindra",
   }
+  {
+    NAME: "Read my blog",
+    HREF: "https://blog.fanindra.xyz/",
+  }
 ];
