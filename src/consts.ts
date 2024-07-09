@@ -9,7 +9,7 @@ export const SITE: Site = {
 
 export const HOME: Metadata = {
   TITLE: "Work",
-  DESCRIPTION: "Fanindra Maharana is an Interaction Designer based in Visakhapatnam, India",
+  DESCRIPTION: "Fanindra Maharana is an Interaction Design student at JKLU, Jaipur",
 };
 
 export const ABOUT: Metadata = {
@@ -36,7 +36,7 @@ export const SOCIALS: Socials = [
     HREF: "https://www.behance.net/imfanindra",
   },
   {
-    NAME: "Read my blog",
-    HREF: "https://blog.fanindra.xyz/",
+    NAME: "CV",
+    HREF: "/cv_fanindra.pdf",
   }
 ];

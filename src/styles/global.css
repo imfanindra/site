@@ -3,17 +3,10 @@
 @tailwind utilities;
 
 @font-face {
-	font-family: "InterDisplay";
-	font-weight: 500;
+	font-family: "Inter";
+	font-weight: 100 900;
 	font-display: swap;
-	src: url("/fonts/InterDisplay-Medium.woff2") format("woff2");
-}
-
-@font-face {
-	font-family: "InterDisplay";
-	font-weight: 600;
-	font-display: swap;
-	src: url("/fonts/InterDisplay-SemiBold.woff2") format("woff2");
+	src: url("/fonts/InterVariable.woff2") format("woff2");
 }
 
 html {
@@ -35,8 +28,9 @@ body {
   @apply flex flex-col;
   @apply bg-white dark:bg-black;
   @apply text-black/50 dark:text-white/75;
-  font-family: "InterDisplay";
+  font-family: "Inter";
   font-weight: 500;
+  @apply tracking-tight;
 }
 
 header {
