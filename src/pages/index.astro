@@ -17,9 +17,9 @@ const projects = (await getCollection("projects")).slice(
     <section class="py-5 sm:py-16 mx-auto max-w-screen-md mb-24">
       <div class="flex flex-col">
         <h1
-          class="animate text-2xl tracking-loose leading-9 text-black dark:text-white"
+          class="animate text-2xl tracking-loose leading-9 text-black"
         >
-          <small class="text-sm text-black/50 dark:text-white/75"
+          <small class="text-sm text-black/50"
             >IPA — / fʌ - nɪn - dhɹʌ /</small
           >
           <br />
@@ -30,15 +30,15 @@ const projects = (await getCollection("projects")).slice(
     </section>
     <section class="animate space-y-8 md:space-y-16 mb-24">
       <div class="flex flex-wrap gap-y-24 mx-auto max-w-screen-md">
-        <h5 class="text-black/50 dark:text-white/75">Featured Work</h5>
+        <h5 class="text-black/50">Featured Work</h5>
       </div>
       <ul class="flex flex-col gap-16 sm:gap-32">
         {projects.map((project) => <ArrowCard entry={project} />)}
       </ul>
     </section>
 
-    <section class="animate space-y-4 mx-auto max-w-screen-md mb-24">
-      <h5 class="text-black/50 dark:text-white/75">Get in touch</h5>
+    <section class="animate space-y-4 mx-auto max-w-screen-md mb-16">
+      <h5 class="text-black/50">Get in touch</h5>
       <article>
         <p>
           Email me here → <Link
@@ -66,7 +66,7 @@ const projects = (await getCollection("projects")).slice(
     </section>
     <section class="animate space-y-4 mx-auto max-w-screen-md">
       <article>
-        <h5 class="text-black/50 dark:text-white/75">Colophon</h5>
+        <h5 class="text-black/50">Colophon</h5>
         <p>
           This website is made with Astro, Tailwind, and MDX and deployed on Vercel. Check out the <a href="https://github.com/imfanindra/site" target="_blank">GitHub Repo</a>. Hit me up if you have any feedback or suggestions for improvement.
         </p>

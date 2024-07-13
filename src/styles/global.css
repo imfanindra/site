@@ -14,10 +14,6 @@ html {
   color-scheme: light;
 }
 
-html.dark {
-  color-scheme: dark;
-}
-
 html,
 body {
   @apply size-full;
@@ -26,18 +22,18 @@ body {
 body {
   @apply font-sans antialiased font-medium tracking-tight;
   @apply flex flex-col;
-  @apply bg-white dark:bg-black;
-  @apply text-black/75 dark:text-white/75;
+  @apply bg-white;
+  @apply text-black/50;
   font-family: "Inter";
 }
 
 ::selection {
-  @apply bg-zinc-100 text-black;
+  @apply bg-zinc-200 text-black;
 }
 
 header {
   @apply fixed top-0 left-0 right-0 z-50 py-5;
-  @apply bg-white/75 dark:bg-black/75;
+  @apply bg-white/75;
   @apply backdrop-blur-sm saturate-200;
 }
 
@@ -54,20 +50,20 @@ img{
 }
 
 article {
-  @apply max-w-full prose dark:prose-invert prose-img:mx-auto prose-img:my-auto;
+  @apply max-w-full prose prose-img:mx-auto prose-img:my-auto;
   @apply prose-headings:font-medium prose-p:font-sans;
-  @apply prose-headings:text-black prose-headings:dark:text-white;
+  @apply prose-headings:text-black;
 }
 
 @layer utilities {
   article a {
     @apply font-sans text-current underline underline-offset-2;
-    @apply decoration-black/30 dark:decoration-white/30;
+    @apply decoration-black/30;
     @apply transition-colors duration-300 ease-in-out;
   }
   article a:hover {
-    @apply text-black dark:text-white;
-    @apply decoration-black/25 dark:decoration-white/50;
+    @apply text-black;
+    @apply decoration-black/25;
   }
 }
 
@@ -95,20 +91,25 @@ p{
 
 h1{
   font-size: 2rem;
+  @apply text-black;
+
 }
 
 h2{
   font-size: 1.75rem;
+  @apply text-black;
 }
 
 h3{
   font-size: 1.5rem;
   line-height: 1.4;
+  @apply text-black;
 }
 
 h4{
   font-size: 1.25rem;
   line-height: 1.4;
+  @apply text-black;
 }
 
 strong{

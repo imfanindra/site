@@ -14,16 +14,16 @@ const { entry } = Astro.props;
     <Image src={entry.data.cover} alt={entry.data.title} />
   </div>
   <div class="flex flex-col gap-4 max-w-screen-md mx-auto">
-    <div class="font-medium text-2xl text-black dark:text-white">
+    <div class="font-medium text-2xl text-black">
       {entry.data.title}
     </div>
-    <div class="flex leading-7 text-black/70 dark:text-white/75">
+    <div class="flex leading-7 text-black/70">
       <p>{entry.data.description}</p>
     </div>
 
     <a
       href={`/${entry.collection}/${entry.slug}`}
-      class="inline-block text-black hover:font-semibold dark:text-white underline underline-offset-4 ease-linear duration-200"
+      class="inline-block text-black hover:font-semibold underline underline-offset-4 ease-linear duration-200"
     >
       <div>Read Case Study</div></a>
   </div>
