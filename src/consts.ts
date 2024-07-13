@@ -37,6 +37,6 @@ export const SOCIALS: Socials = [
   },
   {
     NAME: "CV",
-    HREF: "/cv_fanindra.pdf",
+    HREF: "https://read.cv/fanindra_maharana",
   }
 ];
