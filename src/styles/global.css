@@ -24,13 +24,15 @@ body {
 }
 
 body {
-  @apply font-sans antialiased;
+  @apply font-sans antialiased font-medium tracking-tight;
   @apply flex flex-col;
   @apply bg-white dark:bg-black;
-  @apply text-black/50 dark:text-white/75;
+  @apply text-black/75 dark:text-white/75;
   font-family: "Inter";
-  font-weight: 500;
-  @apply tracking-tight;
+}
+
+::selection {
+  @apply bg-zinc-100 text-black;
 }
 
 header {
@@ -45,6 +47,10 @@ main {
 
 footer {
   @apply py-5 text-sm;
+}
+
+img{
+  @apply select-none;
 }
 
 article {
@@ -84,7 +90,7 @@ html.scrolled #back-to-top {
 
 p{
   font-size: 1.068rem;
-  line-height: 1.8;
+  line-height: 1.75;
 }
 
 h1{
