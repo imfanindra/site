@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 @font-face {
-	font-family: "Inter";
-	font-weight: 100 900;
-	font-display: swap;
-	src: url("/fonts/InterVariable.woff2") format("woff2");
+  font-family: "aktiv-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  src: url("https://use.typekit.net/your-kit-id.woff2") format("woff2");
 }
+
 
 html {
   overflow-y: scroll;
@@ -24,7 +25,7 @@ body {
   @apply flex flex-col;
   @apply bg-white;
   @apply text-black/50;
-  font-family: "Inter";
+  font-family: "aktiv-grotesk";
 }
 
 ::selection {
