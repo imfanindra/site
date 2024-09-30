@@ -17,8 +17,8 @@ export const ABOUT: Metadata = {
   DESCRIPTION: "Read more about me",
 };
 
-export const LAB: Metadata = {
-  TITLE: "Lab",
+export const SANDBOX: Metadata = {
+  TITLE: "Sandbox",
   DESCRIPTION: "Checkout some of my design explorations",
 };
 
