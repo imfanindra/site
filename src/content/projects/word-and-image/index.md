@@ -2,6 +2,7 @@
 title: "Word and Image"
 description: "Part of my M. Des coursework, I've explored the relationship between text and visuals through typographic experiments, visual storytelling, and design compositions."
 cover: "./cover_image.webp"
+date: 2024-09-30
 ---
 
 ![Slide 2](02.webp)

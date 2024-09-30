@@ -2,6 +2,7 @@
 title: "Amazon Pay UI Redesign"
 description: "Heuristic Evaluation and UI Redesign of Amazon Pay android application to find out why very few people use Amazon Pay in India."
 cover: "./amazon-pay.webp"
+date: 2023-08-16
 ---
 
 <div class='max-w-screen-sm mx-auto'>

@@ -2,6 +2,7 @@
 title: "Parked"
 description: "Designed an app to optimize employees' parking with real-time availability, reservations, navigation, and digital passes for enhanced efficiency and convenience."
 cover: "./parked.webp"
+date: 2023-06-16
 ---
 
 <div class='max-w-screen-sm mx-auto'>

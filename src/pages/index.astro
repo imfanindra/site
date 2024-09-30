@@ -6,10 +6,10 @@ import ArrowCard from "@components/ArrowCard.astro";
 import Link from "@components/Link.astro";
 import { SITE, HOME, SOCIALS } from "@consts";
 
-const projects = (await getCollection("projects")).slice(
-  0,
-  SITE.NUM_PROJECTS_ON_HOMEPAGE,
-);
+const projects = await getCollection('projects');
+
+// Sort projects by date (recent to old)
+projects.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
 ---
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
