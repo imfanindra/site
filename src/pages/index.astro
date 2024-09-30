@@ -9,7 +9,7 @@ import { SITE, HOME, SOCIALS } from "@consts";
 const projects = await getCollection('projects');
 
 // Sort projects by date (recent to old)
-projects.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
+projects.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 ---
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
@@ -20,7 +20,7 @@ projects.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
           class="animate text-2xl tracking-loose leading-9 text-black"
         >
           <small class="text-sm font-mono tracking-tighter text-black/50"
-            >IPA — / fʌ - nɪn - dhɹʌ /</small
+            >IPA — /fʌnɪndhɹʌ/</small
           >
           <br />
           Hey! I'm Fanindra, an Interaction Designer specialized in crafting digital
@@ -28,12 +28,15 @@ projects.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
         </h1>
       </div>
     </section>
+    
     <section class="animate space-y-8 md:space-y-16 mb-24">
       <div class="flex flex-wrap gap-y-24 mx-auto max-w-screen-md">
         <h5 class="text-black/50">Featured Work</h5>
       </div>
       <ul class="flex flex-col gap-16 sm:gap-32">
-        {projects.map((project) => <ArrowCard entry={project} />)}
+        {projects.map((project) => (
+          <ArrowCard entry={project} />
+        ))}
       </ul>
     </section>
 
@@ -64,6 +67,7 @@ projects.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
         }
       </ul>
     </section>
+    
     <section class="animate space-y-4 mx-auto max-w-screen-md">
       <article>
         <h5 class="text-black/50">Colophon</h5>
