@@ -8,7 +8,7 @@ const projects = defineCollection({
     cover: image().refine((img) => img.width >= 1080, {
       message: "Cover image must be at least 1080 pixels wide!",
     }),
-    date: z.date().transform((val) => val.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })),
+    serialNo: z.number().int().positive(), // Added serial number field
   }),
 });
 

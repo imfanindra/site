@@ -29,7 +29,7 @@ body {
 
 body {
   @apply font-sans antialiased font-medium tracking-[-0.0125rem] flex flex-col bg-white text-black/50;
-  font-family: "Uncut Sans", sans-sans-serif;
+  font-family: "Uncut Sans", sans-serif;
 }
 
 ::selection {
@@ -110,7 +110,7 @@ h3{
 }
 
 h4{
-  @apply text-black text-[1.5rem] tracking-normal font-semibold leading-[1.25];
+  @apply text-black text-[1.35rem] tracking-normal font-semibold leading-[1.25];
   font-family: "Cal Sans", sans-serif;
 }
 

@@ -3,13 +3,12 @@ import { getCollection } from "astro:content";
 import Container from "@components/Container.astro";
 import PageLayout from "@layouts/PageLayout.astro";
 import ArrowCard from "@components/ArrowCard.astro";
-import Link from "@components/Link.astro";
-import { SITE, HOME, SOCIALS } from "@consts";
+import { HOME } from "@consts";
 
 const projects = await getCollection('projects');
 
-// Sort projects by date (recent to old)
-projects.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+// Sort projects by serial number (ascending)
+projects.sort((a, b) => a.data.serialNo - b.data.serialNo);
 ---
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
@@ -51,5 +50,5 @@ projects.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).
         </h5>
       </article>
     </section>
-      </Container>
+  </Container>
 </PageLayout>

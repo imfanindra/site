@@ -2,7 +2,7 @@
 title: "Parked"
 description: "Designed an app to optimize employees' parking with real-time availability, reservations, navigation, and digital passes for enhanced efficiency and convenience."
 cover: "./parked.webp"
-date: 2023-06-16
+serialNo: 1
 ---
 
 <div class='max-w-screen-sm'>
@@ -41,11 +41,11 @@ Based on the my primary research, I found three primary issues to be addressed.
 
 
 ### <span class="text-black/50">Ideation and </span>Design Process
-#### <span class="text-black/50">By fulfiling the below </span>project goals<span class="text-black/50">, we can address the pimary concenrs
+#### <span class="text-black/50">By fulfiling the below </span>project goals<span class="text-black/50">, we can address the primary concerns
 
 ![Project Goals](Goals.webp)<div class="text-left font-mono text-black/25 text-sm">Project Goals</div>
 
-#### User Flow
+#### <span class="text-black/50">User</span> Flow
 </div>
 
 <div class='max-w-screen-lg '>
@@ -58,9 +58,9 @@ Based on the my primary research, I found three primary issues to be addressed.
 
 <div class='max-w-screen-sm '>
 
-#### Digital Wireframes
+#### <span class="text-black/50">Digital </span>Wireframes
 
-Before diving into crafting polished designs, I've rapidly brainstormed some sleek, low-fidelity wireframes to lay the groundwork.
+Before diving into crafting polished designs, I've rapidly **brainstormed** some sleek, **low-fidelity wireframes** to lay the groundwork.
 </div>
 
 <div class='max-w-screen-lg '>
@@ -73,7 +73,7 @@ Before diving into crafting polished designs, I've rapidly brainstormed some sle
 
 <div class='max-w-screen-sm '>
 
-### Design Solution 
+### <span class="text-black/50">Design</span> Solution 
 </div>
 
 ![Solution #1](Mockups1.webp)
@@ -93,7 +93,7 @@ Before diving into crafting polished designs, I've rapidly brainstormed some sle
 ![Components](Components.webp)<div class="text-left font-mono text-black/25 text-sm">Components</div>
 
 
-### Final Mockups & Live Prototype
+### <span class="text-black/50">Final</span> Designs
 </div>
 
 ![Mockups - Light](Mockups_Light.webp)<div class="text-left font-mono text-black/25 text-sm">Mockups - Light</div>
@@ -101,12 +101,15 @@ Before diving into crafting polished designs, I've rapidly brainstormed some sle
 ![Mockups - Dark](Mockups_Dark.webp)<div class="text-left font-mono text-black/25 text-sm">Mockups - Dark</div>
 
 
+#### <span class="text-black/50">Live </span>Prototype
+**Press R** to reload the figma embed. Use fullscreen for a better experience
+
 <iframe class="hidden md:inline-flex" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FTkMNXHhtCYDQDaAmnmeTcL%2Fparked%3Fnode-id%3D382-8464%26t%3DfPBFWgog63QchWan-1%26scaling%3Dscale-down%26page-id%3D382%253A8073%26starting-point-node-id%3D382%253A8076%26show-proto-sidebar%3D1" allowfullscreen></iframe>
 
 
 <div class='max-w-screen-sm '>
 
-### Scope for possible improvements
+### <span class="text-black/50"> Scope for </span>possible improvements
 
 <strong>Registering with car details</strong> - The users can be asked to register their car details at sign-up. This allows us to recommend more suitable parking spots according to their vehicles.
 
