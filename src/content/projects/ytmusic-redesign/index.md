@@ -6,7 +6,7 @@ date: 2023-11-01
 ---
 
 
-<div class='max-w-screen-sm mx-auto'>
+<div class='max-w-screen-sm text-left'>
 
 I have redesigned the YouTube Music Android application, preserving its original essence while implementing necessary changes. Specifically, I crafted a light theme version for the home screen as part of an internship screening assessment.
 
@@ -19,7 +19,7 @@ The problems with the current version of the app are highlighted in red.
 
 ![Problem #02](Problem2.webp)<div class="text-center text-sm">Problems #02</div>
 
-<div class='max-w-screen-sm mx-auto'>
+<div class='max-w-screen-sm text-left'>
 
 ### Ideation and Design Process
 #### Competitive Analysis & Finding Inspiration
@@ -29,7 +29,7 @@ The problems with the current version of the app are highlighted in red.
 
 ![Apple Music](AppleMusic.webp)<div class="text-center text-sm">Apple Music</div>
 
-<div class='max-w-screen-sm mx-auto'>
+<div class='max-w-screen-sm text-left'>
 
 #### Project Goals
 After identifying the issues with YouTube Music and conducting a comprehensive analysis of competing apps like Spotify and Apple Music, I've distilled the problems into the following key challenges:
@@ -44,7 +44,7 @@ After identifying the issues with YouTube Music and conducting a comprehensive a
 ![Dark Theme](DarkTheme.webp)<div class="text-center text-sm">Dark Theme</div>
 
 
-<div class="max-w-screen-sm mx-auto">
+<div class="max-w-screen-sm text-left">
 
 ### Conclusion
 
