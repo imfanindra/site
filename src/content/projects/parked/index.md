@@ -5,72 +5,73 @@ cover: "./parked.webp"
 date: 2023-06-16
 ---
 
-<div class='max-w-screen-sm mx-auto'>
+<div class='max-w-screen-sm'>
 
-This case study focuses on addressing the challenges faced by employees working in big cities, such as unorganized parking systems and time-consuming searches. The solution entails a mobile app designed to optimize employees’ parking experiences by improving parking efficiency, enhancing user convenience, and providing real-time parking information. The app features real-time availability status of parking spots, spot reservations, navigation, and digital passes. This case study aims to improve the parking experiences of employees through user-centered design.
+### Overview <span class="text-black/50">of this personal project</span>
+This case study focuses on addressing the challenges faced by **employees working in big cities**, such as **unorganized parking systems and time-consuming searches**. The solution entails a mobile app designed to optimize employees’ parking experiences by **improving parking efficiency, enhancing user convenience, and providing real-time parking information.** 
 
+### <span class="text-black/50">Understanding the</span> problem
+Based on my primary research, I've made two **user personas.**
 
-### The Problem 
-To get a better understanding of the problem, I've created two user personas and empathy maps.
-
-#### User 1
+**User Persona #01**
 </div>
-<div class='max-w-screen-lg mx-auto'>
+<div class='max-w-screen-lg '>
 
-![User 1 - User Persona](Persona1.webp)<div class="text-center text-sm">User Persona</div>
-![User 1 - Empathy Map](EmpathyMap1.webp)<div class="text-center text-sm">Empathy Map</div>
+![User 1 - User Persona](Persona1.webp)
 </div>
-<div class='max-w-screen-sm mx-auto'>
+<div class='max-w-screen-sm '>
 
-#### User 2
+**User Persona #02**
 </div>
-<div class='max-w-screen-lg mx-auto'>
+<div class='max-w-screen-lg '>
 
-![User 2 - User Persona](Persona2.webp)<div class="text-center text-sm">User Persona</div>
-![User 2 - Empathy Map](EmpathyMap2.webp)<div class="text-center text-sm">Empathy Map</div>
+![User 2 - User Persona](Persona2.webp)
 </div>
 
-<div class='max-w-screen-sm mx-auto'>
+<div class='max-w-screen-sm '>
 
-#### Defining the problems
-Based on the User Research, I have narrowed down three primary issues have been identified.
+#### Defining <span class="text-black/50"> the problems</span>
+Based on the my primary research, I found three primary issues to be addressed.
 
-![Defined Problems](DefinedProblems.webp)<div class="text-center text-sm">Defined Problems</div>
+- Employees **struggle to find empty parking spots** during busy hours. This causes delays, frustration, and reduced productivity.
+
+- **Unauthorized parking**, whether by employees or visitors, worsens the shortage of designated parking spaces for employees.
+
+- Additionally, the frequent use of **car alarms** in parking lots creates **excessive noise** in the vicinity of the office area.
 
 
-### Ideation and Design Process
-#### Project Goals
-Based on the defined problems, some possible solutions include
+### <span class="text-black/50">Ideation and </span>Design Process
+#### <span class="text-black/50">By fulfiling the below </span>project goals<span class="text-black/50">, we can address the pimary concenrs
 
-![Project Goals](Goals.webp)<div class="text-center text-sm">Project Goals</div>
+![Project Goals](Goals.webp)<div class="text-left font-mono text-black/25 text-sm">Project Goals</div>
 
 #### User Flow
 </div>
 
-<div class='max-w-screen-lg mx-auto'>
+<div class='max-w-screen-lg '>
 
-![User Flow - Onboarding](UserFlow-Signin.webp)<div class="text-center text-sm">User Flow - Signin</div>
+![User Flow - Onboarding](UserFlow-Signin.webp)<div class="text-left font-mono text-black/25 text-sm">User Flow - Signin</div>
 
-![User Flow - Main](UserFlow-Main.webp)<div class="text-center text-sm">User Flow - Main Flow</div>
+![User Flow - Main](UserFlow-Main.webp)<div class="text-left font-mono text-black/25 text-sm">User Flow - Main Flow</div>
 
 </div>
 
-<div class='max-w-screen-sm mx-auto'>
+<div class='max-w-screen-sm '>
 
 #### Digital Wireframes
 
 Before diving into crafting polished designs, I've rapidly brainstormed some sleek, low-fidelity wireframes to lay the groundwork.
 </div>
 
-<div class='max-w-screen-lg mx-auto'>
+<div class='max-w-screen-lg '>
 
-![Wireframes 1](Wireframes1.webp)<div class="text-center text-sm">Wireframes - Onboarding</div>
+![Wireframes 1](Wireframes1.webp)<div class="text-left font-mono text-black/25 text-sm">Wireframes - Onboarding</div>
 
-![Wireframes 2](Wireframes2.webp)<div class="text-center text-sm">Wireframes - Main</div>
+![Wireframes 2](Wireframes2.webp)<div class="text-left font-mono text-black/25 text-sm">Wireframes - Main</div>
 
 </div>
 
-<div class='max-w-screen-sm mx-auto'>
+<div class='max-w-screen-sm '>
 
 ### Design Solution 
 </div>
@@ -81,29 +82,29 @@ Before diving into crafting polished designs, I've rapidly brainstormed some sle
 
 ![Solution #3](Mockups3.webp)
 
-<div class='max-w-screen-sm mx-auto'>
+<div class='max-w-screen-sm '>
 
 #### Design System
 
-![Style Guide](Styles.webp)<div class="text-center text-sm">Style Guide</div>
+![Style Guide](Styles.webp)<div class="text-left font-mono text-black/25 text-sm">Style Guide</div>
 
-![Logo](Logos.webp)<div class="text-center text-sm">Logo</div>
+![Logo](Logos.webp)<div class="text-left font-mono text-black/25 text-sm">Logo</div>
 
-![Components](Components.webp)<div class="text-center text-sm">Components</div>
+![Components](Components.webp)<div class="text-left font-mono text-black/25 text-sm">Components</div>
 
 
 ### Final Mockups & Live Prototype
 </div>
 
-![Mockups - Light](Mockups_Light.webp)<div class="text-center text-sm">Mockups - Light</div>
+![Mockups - Light](Mockups_Light.webp)<div class="text-left font-mono text-black/25 text-sm">Mockups - Light</div>
 
-![Mockups - Dark](Mockups_Dark.webp)<div class="text-center text-sm">Mockups - Dark</div>
+![Mockups - Dark](Mockups_Dark.webp)<div class="text-left font-mono text-black/25 text-sm">Mockups - Dark</div>
 
 
 <iframe class="hidden md:inline-flex" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FTkMNXHhtCYDQDaAmnmeTcL%2Fparked%3Fnode-id%3D382-8464%26t%3DfPBFWgog63QchWan-1%26scaling%3Dscale-down%26page-id%3D382%253A8073%26starting-point-node-id%3D382%253A8076%26show-proto-sidebar%3D1" allowfullscreen></iframe>
 
 
-<div class='max-w-screen-sm mx-auto'>
+<div class='max-w-screen-sm '>
 
 ### Scope for possible improvements
 

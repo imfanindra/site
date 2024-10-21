@@ -5,20 +5,15 @@ import Link from "@components/Link.astro";
 
 <header>
   <Container>
-    <div class="flex flex-wrap gap-y-4 gap-x-2 justify-between select-none">
+    <div class="flex flex-wrap gap-y-4 gap-x-2 align-middle justify-between select-none">
       <Link href="/" underline={false}>
-        <div class="font-medium text-black hidden sm:inline-flex">
-        Fanindra Maharana
-        </div>
-        <div class="font-medium text-black sm:hidden">
-          Fanindra
-          </div>
+        <img src="/Logo.svg" alt="">
       </Link>
-      <nav class="flex gap-4">
+      <nav class="flex gap-4 align-center">
         <Link href="/">Work</Link>
         <Link href="/about">About</Link>
-        <Link href="/sandbox">Sandbox</Link>
-        <Link href="https://blog.fanindra.xyz/" external>Writings</Link>
+        <Link href="https://blog.fanindra.xyz/designs" external>Sandbox</Link>
+        <Link href="https://blog.fanindra.xyz/" external>Journal</Link>
       </nav>
     </div>
   </Container>

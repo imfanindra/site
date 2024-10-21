@@ -14,24 +14,18 @@ projects.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
-    <section class="py-5 sm:py-16 mx-auto max-w-screen-md mb-24">
-      <div class="flex flex-col">
-        <h1
-          class="animate text-2xl tracking-loose leading-9 text-black"
-        >
-          <small class="text-sm font-mono tracking-tighter text-black/50"
-            >IPA — /fʌnɪndhɹʌ/</small
-          >
-          <br />
-          Hey! I'm Fanindra, an Interaction Designer specialized in crafting digital
-          experiences with empathy, innovation, and purpose.
+    <section class="py-5 sm:py-16 max-w-screen-md mx-auto mb-24">
+      <div class="flex gap-2 flex-col">
+        <p class="animate">Hey! I'm Fanindra <span class="font-mono text-[0.875rem] text-black tracking-tighter">(/fʌnɪndhɹʌ/)</span></p>
+        <h1 class="animate text-black/50">
+          An <span class="text-black">Interaction Designer </span>specialized in <span class="text-black"> crafting digital experiences </span> with empathy, innovation, and purpose.
         </h1>
       </div>
     </section>
     
     <section class="animate space-y-8 md:space-y-16 mb-24">
       <div class="flex flex-wrap gap-y-24 mx-auto max-w-screen-md">
-        <h5 class="text-black/50">Featured Work</h5>
+        <h2 class="text-black/50">featured <span class="text-black">projects</span></h2>
       </div>
       <ul class="flex flex-col gap-16 sm:gap-32">
         {projects.map((project) => (
@@ -40,41 +34,22 @@ projects.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).
       </ul>
     </section>
 
-    <section class="animate space-y-4 mx-auto max-w-screen-md mb-16">
-      <h5 class="text-black/50">Get in touch</h5>
-      <article>
-        <p>
-          Email me here → <Link
+    <section class="animate space-y-4 mx-auto max-w-screen-md mb-24">
+      <h2>get in touch</h2>
+      <article class="flex flex-col gap-4">
+        <h5 class="text-black/50">
+          Send an email to <a
             href={`mailto:imfanindra@gmail.com`}
-            aria-label={`Email`}>imfanindra@gmail.com.</Link
+            aria-label={`Email`} class="bigtext text-black decoration-black underline-offset-2">imfanindra@gmail.com</a
           >
-        </p>
-      </article>
-      <ul class="flex flex-wrap gap-4">
-        {
-          SOCIALS.map((SOCIAL) => (
-            <li class="flex gap-x-2 text-nowrap">
-              <Link
-                href={SOCIAL.HREF}
-                external
-                aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`}
-              >
-                {SOCIAL.NAME}
-              </Link>
-              {""}
-            </li>
-          ))
-        }
-      </ul>
-    </section>
-    
-    <section class="animate space-y-4 mx-auto max-w-screen-md">
-      <article>
-        <h5 class="text-black/50">Colophon</h5>
-        <p>
-          This website is made with Astro, Tailwind, and MDX and deployed on Vercel. Check out the <a href="https://github.com/imfanindra/site" target="_blank">GitHub Repo</a>. Hit me up if you have any feedback or suggestions for improvement.
-        </p>
+        </h5>
+        <h5 class="text-black/50">
+          Connect on <a
+            href={`mailto:imfanindra@gmail.com`}
+            aria-label={`Email`} class="bigtext text-black decoration-black underline-offset-2">LinkedIn</a
+          >
+        </h5>
       </article>
     </section>
-  </Container>
+      </Container>
 </PageLayout>

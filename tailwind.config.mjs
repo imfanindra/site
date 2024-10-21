@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["aktiv-grotesk", ...defaultTheme.fontFamily.sans],
+        sans: ["Uncut Sans", "Cal Sans",...defaultTheme.fontFamily.sans],
         serif: [...defaultTheme.fontFamily.serif]
       },
     },
