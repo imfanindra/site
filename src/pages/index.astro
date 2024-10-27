@@ -13,18 +13,18 @@ projects.sort((a, b) => a.data.serialNo - b.data.serialNo);
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
-    <section class="py-5 sm:py-16 max-w-screen-md mx-auto mb-24">
+    <section class="py-5 sm:py-16 max-w-screen-md  mb-24">
       <div class="flex gap-2 flex-col">
-        <p class="animate">Hey! I'm Fanindra <span class="font-mono text-[0.875rem] text-black tracking-tighter">(/fʌnɪndhɹʌ/)</span></p>
-        <h1 class="animate text-black/50">
+        <p class="animate">Hey! I'm Fanindra <span class="text-[0.875rem] text-black tracking-wider">(/fʌnɪndhɹʌ/)</span></p>
+        <h1 class="animate text-black/50 sm:text-[2.25rem] text-[2rem]">
           An <span class="text-black">Interaction Designer </span>specialized in <span class="text-black"> crafting digital experiences </span> with empathy, innovation, and purpose.
         </h1>
       </div>
     </section>
     
     <section class="animate space-y-8 md:space-y-16 mb-24">
-      <div class="flex flex-wrap gap-y-24 mx-auto max-w-screen-md">
-        <h2 class="text-black/50">featured <span class="text-black">projects</span></h2>
+      <div class="flex flex-wrap gap-y-24  max-w-screen-md">
+        <h3 class="text-black/50">featured <span class="text-black">projects</span></h3>
       </div>
       <ul class="flex flex-col gap-16 sm:gap-32">
         {projects.map((project) => (
@@ -33,7 +33,7 @@ projects.sort((a, b) => a.data.serialNo - b.data.serialNo);
       </ul>
     </section>
 
-    <section class="animate space-y-4 mx-auto max-w-screen-md mb-24">
+    <section class="animate space-y-4  max-w-screen-md mb-24">
       <h2>get in touch</h2>
       <article class="flex flex-col gap-4">
         <h5 class="text-black/50">
