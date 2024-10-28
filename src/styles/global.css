@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Uncut Sans';
-  src: url('/fonts/UncutSans.woff2') format('woff2');
+  font-family: 'Inter';
+  src: url('/fonts/Inter.woff2') format('woff2');
   font-weight: 400 600;
   font-style: normal;
 }
@@ -29,7 +29,7 @@ body {
 
 body {
   @apply font-sans antialiased font-medium tracking-[-0.0125rem] flex flex-col bg-white text-black/50;
-  font-family: "Uncut Sans", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 ::selection {
@@ -90,7 +90,7 @@ html.scrolled #back-to-top {
 }
 
 p{
-  font-size: 1.068rem;
+  font-size: 1rem;
   line-height: 1.75;
 }
 
@@ -100,7 +100,7 @@ h1{
 }
 
 h2{
-  @apply text-[1.9rem] font-semibold tracking-normal text-black;
+  @apply text-[2rem] font-semibold tracking-normal text-black;
   font-family: "Cal Sans", sans-serif;
 }
 
@@ -110,7 +110,7 @@ h3{
 }
 
 h4{
-  @apply text-black text-[1.35rem] tracking-normal font-semibold leading-[1.25];
+  @apply text-black text-[1.5rem] tracking-normal font-semibold leading-[1.25];
   font-family: "Cal Sans", sans-serif;
 }
 
@@ -120,8 +120,6 @@ h5{
 }
 
 strong, b{
-  @apply tracking-normal;
-  font-family: "Cal Sans", sans-serif;
   font-weight: 600;
 }
 

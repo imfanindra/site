@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Uncut Sans", "Cal Sans",...defaultTheme.fontFamily.sans],
+        sans: ["Inter", "Cal Sans",...defaultTheme.fontFamily.sans],
         serif: [...defaultTheme.fontFamily.serif]
       },
     },
