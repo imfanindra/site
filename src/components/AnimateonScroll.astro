@@ -1,0 +1,30 @@
+---
+const { children, className = "" } = Astro.props;
+---
+
+<div class={`animate ${className}`}>
+  {children}
+</div>
+
+<script>
+  if (typeof window !== "undefined") {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          }
+        });
+      },
+      {
+        rootMargin: "0px 0px -50% 0px", // Adjusts the viewport to trigger when the element reaches the middle
+        threshold: 0 // Fires as soon as the element crosses this line
+      }
+    );
+
+    // Observe all elements with the `.animate` class
+    document.querySelectorAll(".animate").forEach((el) => {
+      observer.observe(el);
+    });
+  }
+</script>

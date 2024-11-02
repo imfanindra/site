@@ -10,10 +10,10 @@ const { entry } = Astro.props;
 ---
 
 <a href={`/${entry.collection}/${entry.slug}`} class="flex flex-col gap-10">
-  <div class="flex aspect-[16/9] overflow-hidden rounded-lg">
+  <div class="animate flex aspect-[16/9] overflow-hidden rounded-lg">
     <Image src={entry.data.cover} alt={entry.data.title} />
   </div>
-  <div class="flex flex-col gap-4 max-w-[36rem]">
+  <div class="animate flex flex-col gap-4 max-w-[36rem]">
     <h4>{entry.data.title}</h4>
     <p>{entry.data.description}</p>
     <div class="text-black tracking-normal">Read more →</div>

@@ -73,12 +73,12 @@ article {
 }
 
 .animate {
-  @apply opacity-0 translate-y-3;
-  @apply transition-all duration-700 ease-out;
+  @apply opacity-0 translate-y-16 scale-95;
+  @apply transition-all duration-1000 ease-out;
 }
 
 .animate.show {
-  @apply opacity-100 translate-y-0;
+  @apply opacity-100 translate-y-0 scale-100;
 }
 
 html #back-to-top {
