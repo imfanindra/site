@@ -4,8 +4,8 @@
 
 
 @font-face {
-  font-family: 'CalSans'; /* Name your font */
-  src: url('/fonts/CalSans.woff2') format('woff2');
+  font-family: 'Geist'; /* Name your font */
+  src: url('/fonts/Geist.woff2') format('woff2');
   font-weight: 100 900; /* Specify the weight */
   font-style: normal;
 }
