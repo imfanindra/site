@@ -2,20 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Inter';
-  src: url('/fonts/Inter.woff2') format('woff2');
-  font-weight: 400 600;
-  font-style: normal;
-}
 
 @font-face {
-  font-family: 'Cal Sans';
+  font-family: 'CalSans'; /* Name your font */
   src: url('/fonts/CalSans.woff2') format('woff2');
-  font-weight: 600;
+  font-weight: 100 900; /* Specify the weight */
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'CalSans'; /* Name your font */
+  src: url('/fonts/CalSans.woff2') format('woff2');
+  font-weight: 600; /* Specify the weight */
+  font-style: normal;
+}
 
 html {
   overflow-y: scroll;
@@ -29,7 +29,7 @@ body {
 
 body {
   @apply font-sans antialiased font-medium tracking-[-0.0125rem] flex flex-col bg-white text-black/50;
-  font-family: "Inter", sans-serif;
+  font-family: "Geist", sans-serif;
 }
 
 ::selection {
@@ -50,7 +50,7 @@ footer {
   @apply py-5 text-sm;
 }
 
-img{
+img {
   @apply select-none;
 }
 
@@ -73,12 +73,12 @@ article {
 }
 
 .animate {
-  @apply opacity-0 translate-y-16 scale-95;
-  @apply transition-all duration-1000 ease-out;
+  @apply opacity-0 translate-y-8; /* Reduced translate-y for a gentler entry */
+  @apply transition-opacity transition-transform duration-700 ease-out; /* Slightly shorter duration */
 }
 
 .animate.show {
-  @apply opacity-100 translate-y-0 scale-100;
+  @apply opacity-100 translate-y-0;
 }
 
 html #back-to-top {
@@ -89,40 +89,41 @@ html.scrolled #back-to-top {
   @apply opacity-100 pointer-events-auto;
 }
 
-p{
+p {
   font-size: 1rem;
   line-height: 1.75;
 }
 
-h1{
-  @apply text-[2.25rem] font-semibold tracking-normal leading-tight text-black;
-  font-family: "Cal Sans", sans-serif;
+h1 {
+  @apply text-[2.25rem] font-semibold tracking-tight leading-tight text-black;
+  font-family: "CalSans", serif;
 }
 
-h2{
+h2 {
   @apply text-[2rem] font-semibold tracking-normal text-black;
-  font-family: "Cal Sans", sans-serif;
+  font-family: "CalSans", serif;
 }
 
-h3{
+h3 {
   @apply text-black text-[1.75rem] tracking-normal font-semibold leading-[1.25];
-  font-family: "Cal Sans", sans-serif;
+  font-family: "CalSans", serif;
 }
 
-h4{
+h4 {
   @apply text-black text-[1.5rem] tracking-normal font-semibold leading-[1.25];
-  font-family: "Cal Sans", sans-serif;
+  font-family: "CalSans", serif;
 }
 
-h5{
+h5 {
   @apply text-black text-[1.25rem] tracking-normal font-semibold leading-[1.25];
-  font-family: "Cal Sans", sans-serif;
+  font-family: "CalSans", serif;
 }
 
-strong, b{
+strong,
+b {
   font-weight: 600;
 }
 
-.bigtext{
-  font-family: "Cal Sans", sans-serif;
+.bigtext {
+  font-family: "CalSans", sans-serif;
 }

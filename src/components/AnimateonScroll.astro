@@ -9,22 +9,21 @@ const { children, className = "" } = Astro.props;
 <script>
   if (typeof window !== "undefined") {
     const observer = new IntersectionObserver(
-      (entries) => {
+      (entries, observer) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("show");
+            observer.unobserve(entry.target); // Stop observing once the animation triggers
           }
         });
       },
       {
-        rootMargin: "0px 0px -50% 0px", // Adjusts the viewport to trigger when the element reaches the middle
-        threshold: 0 // Fires as soon as the element crosses this line
+        rootMargin: "0px 0px -50% 0px",
+        threshold: 0
       }
     );
 
-    // Observe all elements with the `.animate` class
-    document.querySelectorAll(".animate").forEach((el) => {
-      observer.observe(el);
-    });
+    // Observe elements with `.animate` class
+    document.querySelectorAll(".animate").forEach(observer.observe.bind(observer));
   }
 </script>
