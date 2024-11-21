@@ -26,6 +26,12 @@ importers:
       '@astrojs/vercel':
         specifier: ^7.6.0
         version: 7.7.1(astro@4.10.3(typescript@5.4.5))(react@18.3.1)
+      '@fontsource-variable/inter':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource-variable/plus-jakarta-sans':
+        specifier: ^5.1.0
+        version: 5.1.0
       '@ibm/plex-sans':
         specifier: ^1.0.0
         version: 1.0.0
@@ -453,6 +459,12 @@ packages:
   '@eslint/object-schema@2.1.4':
     resolution: {integrity: sha512-BsWiH1yFGjXXS2yvrf5LyuoSIIbPrGUWob917o+BTKuZ7qJdxX8aJLRxs1fS9n6r7vESrq1OUqb68dANcFXuQQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@fontsource-variable/inter@5.1.0':
+    resolution: {integrity: sha512-Wj2dUGP0vUpxRGQTXQTCNJO+aLcFcQm+gUPXfj/aS877bQkEPBPv9JvZJpwdm2vzelt8NTZ+ausKlBCJjh2XIg==}
+
+  '@fontsource-variable/plus-jakarta-sans@5.1.0':
+    resolution: {integrity: sha512-K7o2GO7/quVFFyfjTqYZu0ng4KJGf60KSAGbvUWwKuH+/Giyl6Qe/EqnGLcjrl9AmXZzTvtRB1xpkASn8FNFoQ==}
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -3748,6 +3760,10 @@ snapshots:
   '@eslint/js@9.5.0': {}
 
   '@eslint/object-schema@2.1.4': {}
+
+  '@fontsource-variable/inter@5.1.0': {}
+
+  '@fontsource-variable/plus-jakarta-sans@5.1.0': {}
 
   '@humanwhocodes/module-importer@1.0.1': {}
 

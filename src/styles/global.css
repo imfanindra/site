@@ -4,18 +4,12 @@
 
 
 @font-face {
-  font-family: 'Geist'; /* Name your font */
-  src: url('/fonts/Geist.woff2') format('woff2');
-  font-weight: 100 900; /* Specify the weight */
+  font-family: "Inter", sans-serif;
+  font-weight: 400 700;
   font-style: normal;
+  src: url(/fonts/Inter.woff2);
 }
 
-@font-face {
-  font-family: 'CalSans'; /* Name your font */
-  src: url('/fonts/CalSans.woff2') format('woff2');
-  font-weight: 600; /* Specify the weight */
-  font-style: normal;
-}
 
 html {
   overflow-y: scroll;
@@ -29,7 +23,7 @@ body {
 
 body {
   @apply font-sans antialiased font-medium tracking-[-0.0125rem] flex flex-col bg-white text-black/50;
-  font-family: "Geist", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 ::selection {
@@ -95,35 +89,36 @@ p {
 }
 
 h1 {
-  @apply text-[2.25rem] font-semibold tracking-tight leading-tight text-black;
-  font-family: "CalSans", serif;
+  @apply text-[2.25rem] font-bold tracking-[-0.07rem] leading-tight text-black;
+  font-family: "Inter", sans-serif;
 }
 
 h2 {
-  @apply text-[2rem] font-semibold tracking-normal text-black;
-  font-family: "CalSans", serif;
+  @apply text-[2rem] font-bold tracking-[-0.07rem] text-black;
+  font-family: "Inter", sans-serif;
 }
 
 h3 {
-  @apply text-black text-[1.75rem] tracking-normal font-semibold leading-[1.25];
-  font-family: "CalSans", serif;
+  @apply text-black text-[1.75rem] tracking-[-0.07rem] font-bold leading-[1.25];
+  font-family: "Inter", sans-serif;
 }
 
 h4 {
-  @apply text-black text-[1.5rem] tracking-normal font-semibold leading-[1.25];
-  font-family: "CalSans", serif;
+  @apply text-black text-[1.5rem] tracking-[-0.07rem] font-bold leading-[1.25];
+  font-family: "Inter", sans-serif;
 }
 
 h5 {
-  @apply text-black text-[1.25rem] tracking-normal font-semibold leading-[1.25];
-  font-family: "CalSans", serif;
+  @apply text-black text-[1.25rem] tracking-[-0.07rem] font-bold leading-[1.25];
+  font-family: "Inter", sans-serif;
 }
 
 strong,
 b {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .bigtext {
-  font-family: "CalSans", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
 }
