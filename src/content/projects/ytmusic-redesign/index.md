@@ -2,7 +2,7 @@
 title: "YouTube Music UI Redesign"
 description: "Redesigned YouTube Music Android app's home screen, enhancing user experience with a fresh light theme while maintaining its original essence."
 cover: "./ytmusic.webp"
-serialNo: 4
+serialNo: 5
 ---
 
 

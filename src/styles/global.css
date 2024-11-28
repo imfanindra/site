@@ -115,7 +115,8 @@ h5 {
 
 strong,
 b {
-  font-weight: 700;
+  @apply font-bold text-black;
+  
 }
 
 .bigtext {
