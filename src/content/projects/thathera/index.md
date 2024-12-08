@@ -19,138 +19,37 @@ In the first semester of my M.Des, we had the course - **Crafts, Cultures, and H
 
 ### The book that we put together!
 
-<div class="flex flex-row "><div>
 
-![Page 1](page01.webp)
-</div><div>
+![Page 1](page1.webp)
 
-![Page 2](page02.webp)
-</div></div>
+![Page 2](page2.webp)
 
-<div class="flex flex-row "><div>
+![Page 3](page3.webp)
 
-![Page 3](page03.webp)
-</div><div>
+![Page 4](page4.webp)
 
-![Page 4](page04.webp)
-</div></div>
+![Page 5](page5.webp)
 
-<div class="flex flex-row "><div>
+![Page 6](page6.webp)
 
-![Page 5](page05.webp)
-</div><div>
+![Page 7](page7.webp)
 
-![Page 6](page06.webp)
-</div></div>
+![Page 8](page8.webp)
 
-<div class="flex flex-row "><div>
-
-![Page 7](page07.webp)
-</div><div>
-
-![Page 8](page08.webp)
-</div></div>
-
-<div class="flex flex-row "><div>
-
-![Page 9](page09.webp)
-</div><div>
+![Page 9](page9.webp)
 
 ![Page 10](page10.webp)
-</div></div>
-
-<div class="flex flex-row "><div>
 
 ![Page 11](page11.webp)
-</div><div>
 
 ![Page 12](page12.webp)
-</div></div>
-
-<div class="flex flex-row "><div>
 
 ![Page 13](page13.webp)
-</div><div>
 
 ![Page 14](page14.webp)
-</div></div>
-
-<div class="flex flex-row "><div>
 
 ![Page 15](page15.webp)
-</div><div>
 
 ![Page 16](page16.webp)
-</div></div>
-
-<div class="flex flex-row "><div>
 
 ![Page 17](page17.webp)
-</div><div>
-
-![Page 18](page18.webp)
-</div></div>
-
-<div class="flex flex-row "><div>
-
-![Page 19](page19.webp)
-</div><div>
-
-![Page 20](page20.webp)
-</div></div>
-
-<div class="flex flex-row"><div>
-
-![Page 21](page21.webp)
-</div><div>
-
-![Page 22](page22.webp)
-</div></div>
-
-<div class="flex flex-row "><div>
-
-![Page 23](page23.webp)
-</div><div>
-
-![Page 24](page24.webp)
-</div></div>
-
-<div class="flex flex-row "><div>
-
-![Page 25](page25.webp)
-</div><div>
-
-![Page 26](page26.webp)
-</div></div>
-
-<div class="flex flex-row "><div>
-
-![Page 27](page27.webp)
-</div><div>
-
-![Page 28](page28.webp)
-</div></div>
-
-<div class="flex flex-row "><div>
-
-![Page 29](page29.webp)
-</div><div>
-
-![Page 30](page30.webp)
-</div></div>
-
-<div class="flex flex-row "><div>
-
-![Page 31](page31.webp)
-</div><div>
-
-![Page 32](page32.webp)
-</div></div>
-
-<div class="flex flex-row "><div>
-
-![Page 33](page33.webp)
-</div><div>
-
-![Page 34](page34.webp)
-</div></div>

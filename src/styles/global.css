@@ -4,10 +4,10 @@
 
 
 @font-face {
-  font-family: "Inter", sans-serif;
+  font-family: "Geist", sans-serif;
   font-weight: 400 700;
   font-style: normal;
-  src: url(/fonts/Inter.woff2);
+  src: url(/fonts/Geist.woff2);
 }
 
 
@@ -23,7 +23,7 @@ body {
 
 body {
   @apply font-sans antialiased font-medium tracking-[-0.0125rem] flex flex-col bg-white text-black/50;
-  font-family: "Inter", sans-serif;
+  font-family: "Geist", sans-serif;
 }
 
 ::selection {
@@ -89,37 +89,37 @@ p {
 }
 
 h1 {
-  @apply text-[2.25rem] font-bold tracking-[-0.07rem] leading-tight text-black;
-  font-family: "Inter", sans-serif;
+  @apply text-[2.25rem] font-semibold tracking-[-0.07rem] leading-tight text-black;
+  font-family: "Geist", sans-serif;
 }
 
 h2 {
-  @apply text-[2rem] font-bold tracking-[-0.07rem] text-black;
-  font-family: "Inter", sans-serif;
+  @apply text-[2rem] font-semibold tracking-[-0.07rem] text-black;
+  font-family: "Geist", sans-serif;
 }
 
 h3 {
-  @apply text-black text-[1.75rem] tracking-[-0.07rem] font-bold leading-[1.25];
-  font-family: "Inter", sans-serif;
+  @apply text-black text-[1.75rem] tracking-[-0.07rem] font-semibold leading-[1.25];
+  font-family: "Geist", sans-serif;
 }
 
 h4 {
-  @apply text-black text-[1.5rem] tracking-[-0.07rem] font-bold leading-[1.25];
-  font-family: "Inter", sans-serif;
+  @apply text-black text-[1.5rem] tracking-[-0.07rem] font-semibold leading-[1.25];
+  font-family: "Geist", sans-serif;
 }
 
 h5 {
-  @apply text-black text-[1.25rem] tracking-[-0.07rem] font-bold leading-[1.25];
-  font-family: "Inter", sans-serif;
+  @apply text-black text-[1.25rem] tracking-[-0.07rem] font-semibold leading-[1.25];
+  font-family: "Geist", sans-serif;
 }
 
 strong,
 b {
-  @apply font-bold text-black;
+  @apply font-semibold text-black;
   
 }
 
 .bigtext {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
+  font-family: "Geist", sans-serif;
+  font-weight: 600;
 }
