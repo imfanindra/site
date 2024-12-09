@@ -1,7 +1,7 @@
 ---
 title: "Amazon Pay UI Redesign"
 description: "Heuristic Evaluation and UI Redesign of Amazon Pay android application to find out why very few people use Amazon Pay in India."
-cover: "./amazon-pay.webp"
+cover: "./amazonpay.webp"
 serialNo: 4
 ---
 

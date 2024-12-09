@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en"> <head><!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/x-icon" href="/favicon.svg"><meta name="generator" content="Astro v5.0.3"><!-- Google Site Verification --><meta name="google-site-verification" content="H1BbxTZpgVjtSZnslNkDv__QgrJnBQyFSgthR5iECp0"><!-- Canonical URL --><link rel="canonical" href="https://www.fanindra.xyz/projects/ytmusic-redesign/"><!-- Primary Meta Tags --><title>Fanindra Maharana - YouTube Music UI Redesign</title><meta name="title" content="Fanindra Maharana - YouTube Music UI Redesign"><meta name="description" content="Redesigned YouTube Music Android app's home screen, enhancing user experience with a fresh light theme while maintaining its original essence."><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://www.fanindra.xyz/projects/ytmusic-redesign/"><meta property="og:title" content="Fanindra Maharana - YouTube Music UI Redesign"><meta property="og:description" content="Redesigned YouTube Music Android app's home screen, enhancing user experience with a fresh light theme while maintaining its original essence."><meta property="og:image" content="https://www.fanindra.xyz/fanindra.png"><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://www.fanindra.xyz/projects/ytmusic-redesign/"><meta property="twitter:title" content="Fanindra Maharana - YouTube Music UI Redesign"><meta property="twitter:description" content="Redesigned YouTube Music Android app's home screen, enhancing user experience with a fresh light theme while maintaining its original essence."><meta property="twitter:image" content="https://www.fanindra.xyz/fanindra.png"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/_astro/ClientRouter.astro_astro_type_script_index_0_lang.BScVxmeO.js"></script><script type="module">document.addEventListener("astro:before-swap",e=>[...e.newDocument.head.querySelectorAll('link[as="font"]')].forEach(o=>o.remove()));</script><script>
+  function init() {
+    onScroll();
+    animate();
+
+    const backToTop = document.getElementById("back-to-top");
+    backToTop?.addEventListener("click", (event) => scrollToTop(event));
+
+    const backToPrev = document.getElementById("back-to-prev");
+    backToPrev?.addEventListener("click", () => window.history.back());
+
+    document.addEventListener("scroll", onScroll);
+  }
+
+  function animate() {
+    const animateElements = document.querySelectorAll(".animate");
+
+    animateElements.forEach((element, index) => {
+      setTimeout(() => {
+        element.classList.add("show");
+      }, index * 150);
+    });
+  }
+
+  function onScroll() {
+    if (window.scrollY > 0) {
+      document.documentElement.classList.add("scrolled");
+    } else {
+      document.documentElement.classList.remove("scrolled");
+    }
+  }
+
+  function scrollToTop(event) {
+    event.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => init());
+  document.addEventListener("astro:after-swap", () => init());
+</script><link rel="stylesheet" href="/_astro/about.Bj0A77id.css">
+<style>[data-astro-image]{width:100%;height:auto;-o-object-fit:var(--fit);object-fit:var(--fit);-o-object-position:var(--pos);object-position:var(--pos);aspect-ratio:var(--w) / var(--h)}[data-astro-image=responsive]{max-width:calc(var(--w) * 1px);max-height:calc(var(--h) * 1px)}[data-astro-image=fixed]{width:calc(var(--w) * 1px);height:calc(var(--h) * 1px)}
+</style><script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+		var script = document.createElement('script');
+		script.defer = true;
+		script.src = '/_vercel/insights/script.js';
+		var head = document.querySelector('head');
+		head.appendChild(script);
+	</script></head> <body class="absolute inset-0 h-full w-full bg-white bg-[radial-gradient(#eeeeee_1px,transparent_2px)] [background-size:28px_28px]"> <header> <div class="px-5 mx-auto max-w-screen-xl sm:px-16">  <div class="flex flex-wrap gap-y-4 gap-x-2 align-middle justify-between select-none"> <a href="/" target="_self" class="flex text-current hover:text-black transition-colors duration-300 ease-in-out">  <img src="/Logo.svg" alt="">  </a> <nav class="flex gap-4 align-center"> <a href="/" target="_self" class="flex text-current hover:text-black transition-colors duration-300 ease-in-out"> Work </a> <a href="/about" target="_self" class="flex text-current hover:text-black transition-colors duration-300 ease-in-out"> About </a> <a href="https://blog.fanindra.xyz/designs" target="_blank" class="flex text-current hover:text-black transition-colors duration-300 ease-in-out"> Sandbox </a> <a href="https://blog.fanindra.xyz/" target="_blank" class="flex text-current hover:text-black transition-colors duration-300 ease-in-out"> Journal </a> </nav> </div>  </div> </header> <main>  <div class="px-5 mx-auto max-w-screen-xl sm:px-16">  <div class="space-y-4 max-w-2xl"> <h1 class="animate">YouTube Music UI Redesign</h1> <p class="animate text-black">Redesigned YouTube Music Android app&#39;s home screen, enhancing user experience with a fresh light theme while maintaining its original essence.</p> </div> <div class="animate my-10 flex aspect-[16/9] overflow-hidden rounded-md"> <img src="/_astro/ytmusic.C5HrsL5Z_ZP6J6W.webp" alt="YouTube Music UI Redesign" width="2400" height="1350" loading="lazy" decoding="async"> </div> <div class="flex"> <article class="animate"> <div class="max-w-screen-sm text-left">
+<p>I have redesigned the YouTube Music Android application, preserving its original essence while implementing necessary changes. Specifically, I crafted a light theme version for the home screen as part of an internship screening assessment.</p>
+<h3 id="the-problem">The Problem</h3>
+<p>The problems with the current version of the app are highlighted in red.</p>
+</div>
+<p><img alt="Problem #01" width="1954" height="1027" loading="lazy" decoding="async" src="/_astro/Problem1.ddckza7S_1Yzxc8.webp" ></p><div class="text-center text-sm">Problems #01</div><p></p>
+<p><img alt="Problem #02" width="1962" height="1235" loading="lazy" decoding="async" src="/_astro/Problem2.BFA34Cx__1Cdc5m.webp" ></p><div class="text-center text-sm">Problems #02</div><p></p>
+<div class="max-w-screen-sm text-left">
+<h3 id="ideation-and-design-process">Ideation and Design Process</h3>
+<h4 id="competitive-analysis--finding-inspiration">Competitive Analysis &#x26; Finding Inspiration</h4>
+</div>
+<p><img alt="Spotify" width="1944" height="2014" loading="lazy" decoding="async" src="/_astro/Spotify.BDYZuu-E_29iLa5.webp" ></p><div class="text-center text-sm">Spotify</div><p></p>
+<p><img alt="Apple Music" width="1500" height="1396" loading="lazy" decoding="async" src="/_astro/AppleMusic.Btk19vQF_Z1dbLKJ.webp" ></p><div class="text-center text-sm">Apple Music</div><p></p>
+<div class="max-w-screen-sm text-left">
+<h4 id="project-goals">Project Goals</h4>
+<p>After identifying the issues with YouTube Music and conducting a comprehensive analysis of competing apps like Spotify and Apple Music, I’ve distilled the problems into the following key challenges:</p>
+<p><img alt="Project Goals" width="2186" height="1580" loading="lazy" decoding="async" src="/_astro/ProjectGoals.B3kobonn_1esbHe.webp" ></p><div class="text-center text-sm">Project Goals</div><p></p>
+<h3 id="design-solution">Design Solution</h3>
+</div>
+<p><img alt="Light Theme" width="4000" height="2250" loading="lazy" decoding="async" src="/_astro/LightTheme.D-Mp5Tts_Z1HAK6z.webp" ></p><div class="text-center text-sm">Light Theme</div><p></p>
+<p><img alt="Dark Theme" width="4000" height="2250" loading="lazy" decoding="async" src="/_astro/DarkTheme.CwOtGzS__Z19Yq76.webp" ></p><div class="text-center text-sm">Dark Theme</div><p></p>
+<div class="max-w-screen-sm text-left">
+<h3 id="conclusion">Conclusion</h3>
+<p>This project aimed to enhance the YouTube Music Android app’s user experience while staying true to its core identity. Inspired by competitors like Spotify and Apple Music, a light theme refreshed the home screen. It is important to note that this redesign is focused solely on the homepage, player page, and lyrics tab to improve accessibility and engagement. It preserved the app’s essence while making necessary changes for a more user-friendly and visually appealing experience.</p>
+</div> </article> </div>  </div>  </main> <footer class="animate select-none"> <div class="px-5 mx-auto max-w-screen-xl sm:px-16">  <div class="relative"></div> <div class="flex justify-between items-center py-4"> <div>
+&copy; 2024 — Fanindra Maharana </div> <div>
+Last updated - November 2024
+</div> </div>  </div> </footer> </body></html>

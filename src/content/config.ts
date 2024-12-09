@@ -5,10 +5,8 @@ const projects = defineCollection({
   schema: ({ image }) => z.object({
     title: z.string(),
     description: z.string(),
-    cover: image().refine((img) => img.width >= 1080, {
-      message: "Cover image must be at least 1080 pixels wide!",
-    }),
-    serialNo: z.number().int().positive(), // Added serial number field
+    cover: image(), // No width condition
+    serialNo: z.number().int().positive(),
   }),
 });
 

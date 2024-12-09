@@ -5,7 +5,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import ArrowCard from "@components/ArrowCard.astro";
 import { HOME } from "@consts";
 
-const projects = await getCollection('projects');
+const projects = await getCollection("projects");
 
 // Sort projects by serial number (ascending)
 projects.sort((a, b) => a.data.serialNo - b.data.serialNo);
@@ -13,39 +13,52 @@ projects.sort((a, b) => a.data.serialNo - b.data.serialNo);
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
-    <section class="py-5 sm:py-16 max-w-screen-md  mb-24">
+    <section class="py-5 sm:py-16 max-w-screen-md mb-24">
       <div class="flex gap-2 flex-col">
-        <p class="animate">Hey! I'm Fanindra <span class="text-[0.875rem] text-black">(/fʌnɪndhɹʌ/)</span></p>
-        <h1 class="animate tracking-tighter text-black/50 sm:text-[2.25rem] text-[2rem]">
-          An <span class="text-black">Interaction Designer </span>specialized in <span class="text-black"> crafting digital experiences </span> with empathy, innovation, and purpose.
+        <p class="animate">
+          Hey! I'm Fanindra <span class="text-[0.875rem] text-black"
+            >(/fʌnɪndhɹʌ/)</span>
+        </p>
+        <h1
+          class="animate tracking-tighter text-black/50 sm:text-[2.25rem] text-[2rem]"
+        >
+          An <span class="text-black">Interaction Designer </span>specialized in <span
+            class="text-black"
+          >
+            crafting digital experiences
+          </span> with empathy, innovation, and purpose.
         </h1>
       </div>
     </section>
-    
-    <section class="space-y-8 md:space-y-12 mb-24">
-  <div class="flex flex-wrap gap-y-24 max-w-screen-md">
-    <h3 class="animate text-black/50">Featured<span class="text-black"> Projects</span></h3>
-  </div>
-  <ul class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-16">
-    {projects.map((project) => (
-      <ArrowCard entry={project} />
-    ))}
-  </ul>
-</section>
 
-    <section class="animate space-y-4  max-w-screen-md mb-24">
+    <section class="space-y-8 md:space-y-12 mb-24">
+      <div class="flex flex-wrap gap-y-24 max-w-screen-md">
+        <h3 class="animate text-black/50">
+          Featured<span class="text-black"> Projects</span>
+        </h3>
+      </div>
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-16">
+        {projects.map((project) => <ArrowCard entry={project} />)}
+      </ul>
+    </section>
+
+    <section class="animate space-y-4 max-w-screen-md mb-24">
       <h2>Get in touch</h2>
       <article class="flex flex-col gap-4">
         <h5 class="text-black/50">
           Send an email to <a
             href={`mailto:imfanindra@gmail.com`}
-            aria-label={`Email`} class="bigtext text-black decoration-black underline-offset-2">imfanindra@gmail.com</a
+            aria-label={`Email`}
+            class="bigtext text-black decoration-black underline-offset-2"
+            >imfanindra@gmail.com</a
           >
         </h5>
         <h5 class="text-black/50">
           Connect on <a
             href={`https://www.linkedin.com/in/fanindra-m/`}
-            aria-label={`Email`} class="bigtext text-black decoration-black underline-offset-2">LinkedIn</a
+            aria-label={`Email`}
+            class="bigtext text-black decoration-black underline-offset-2"
+            >LinkedIn</a
           >
         </h5>
       </article>
